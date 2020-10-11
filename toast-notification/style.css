@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  font-size: 22px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+button {
+  padding: 20px 25px;
+
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+}
+
+#notification-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.notification {
+  margin: 0;
+  padding: 30px 20px;
+
+  background-color: pink;
+  border-radius: 10px;
+  opacity: 80%;
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 10px;
+}

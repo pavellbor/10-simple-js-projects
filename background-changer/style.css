@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+
+  background-color: pink;
+}
+
+#btn {
+  padding: 1em;
+
+  font: inherit;
+
+  background-color: transparent;
+  border: 5px solid #000;
+  outline: none;
+  cursor: pointer;
+
+  transition-duration: 0.5s;
+}
+
+#btn:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+
+  background-color: salmon;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+li:not(:last-child) {
+  margin-right: 1em;
+}
+
+button {
+  padding: 1em;
+
+  font: inherit;
+  color: #fff;
+
+  background-color: transparent;
+  border: 5px solid #fff;
+  cursor: pointer;
+}
